@@ -1,26 +1,26 @@
-# Python Tic-Tac-Toe
+# Python Tic Tac Toe
 
-## Overview of the Project
+## Overview 
 
-This is a simple, command-line implementation of the classic Tic-Tac-Toe game built using Python. Two players take turns marking spaces in a 3x3 grid (using X and O). The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
+This is a simple Tic Tac Toe game you can play right in the command line (terminal). It’s written in Python and lets two players take turns placing X and O on a 3×3 grid. The goal is straightforward: get three of your symbols in a row—horizontally, vertically, or diagonally—before the other player does. Whoever manages that first wins the game.
 
 ## Features
 
 - **Two-Player Mode**: Play against a friend on the same computer.
-- **Randomized Start**: A digital "coin toss" decides whether X or O goes first.
-- **Clean Interface**: The screen clears automatically after every turn to keep the board view clean.
+- **Randomized Start**: A digital coin toss decides whether player X or O goes first.
+- **Clean Interface**: The terminal screen clears automatically after every turn to keep the board view clean.
 - **Input Validation**: Prevents players from entering invalid numbers or selecting spots that are already taken.
 - **Win & Tie Detection**: Automatically detects when a player wins or if the game ends in a draw.
 
-## Technologies/Tools Used
+## Tools Used
 
-- **Programming Language**: Python 3.x
+- **Programming Language**: Python 3.13.7
 - **Standard Libraries**:
   - `os` (for clearing the terminal screen)
   - `sys` (for exiting the game)
-  - `random` (for the coin toss logic)
-  - `time` (for user experience delays)
-  - `itertools` (for cycling player turns)
+  - `random` (for the coin toss)
+  - `time` (for delays)
+  - `itertools` (for player turns)
 
 ## Steps to Install & Run the Project
 
