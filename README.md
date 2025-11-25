@@ -83,7 +83,7 @@ The following features are planned for future releases to enhance the applicatio
 - **Single Player AI**: Implement a Minimax algorithm to allow a single user to play against an unbeatable computer opponent
 - **Persistent Scoreboard**: Use file I/O (handling .txt or .json files) to save win/loss records across multiple games
 - **Replay Loop**: Encapsulate the main logic in a while True loop to allow players to restart the game immediately without re-running the script
-- **Graphical User Interface (GUI)**: Port the game logic to a GUI framework such as Tkinter or PyGame for a windowed experience
+- **Graphical User Interface**: Port the game logic to a GUI framework such as Tkinter or PyGame for a windowed experience
 
 ## Screenshots
 <img width="477" height="333" alt="Screenshot 2025-11-24 231638" src="https://github.com/user-attachments/assets/8fb8ceb5-db1d-407d-a1fd-7834d560ac5b" />
